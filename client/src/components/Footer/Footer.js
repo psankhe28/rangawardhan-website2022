@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css";
-import logo from "../../assets/logo.svg";
+// import logo from "../../assets/logo.svg";
 import styled from "styled-components";
 import {
   FaEnvelope,
@@ -23,14 +23,14 @@ const Logo = styled.a`
   }
 `;
 
-const Footer1 = () => {
+const Footer = () => {
   return (
     <div>
       <footer>
         <div className="row">
           <div className="col">
             <Logo>
-              <img src={logo} alt="Rangawardhan" />
+//               <img src={logo} alt="Rangawardhan" />
               <h1>Rangawardhan</h1>
             </Logo>{" "}
           </div>
@@ -132,4 +132,4 @@ const Footer1 = () => {
   );
 };
 
-export default Footer1;
+export default Footer;
