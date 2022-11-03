@@ -5,12 +5,12 @@ import data from '../../../constants/data'
 
 const Webteam = () => {
   return (
-    <section className="team py-2 bg-red" id="team">
+    <section className="team py-6 bg-red" id="team">
         <div className="container">
-            <div className="section-title bg-dark" data-aos="zoom-in-up">
-                <h2 className="text-upper text-white text-center">WebDev Team</h2>
+            <div className=" bg-dark section-title" data-aos="zoom-in-up" data-aos-duration="3000">
+                <h2 className="text-upper text-white text-center past ">WebDev Team</h2>
             </div>
-            <div className="team-content py-2 grid" data-aos="zoom-in-up">
+            <div className="team-content py-2 grid" data-aos="zoom-in-up" data-aos-duration="3000">
                 {
                     data.teams.map((teams, index)=>{
                  return(

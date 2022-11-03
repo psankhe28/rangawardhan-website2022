@@ -1,5 +1,5 @@
 .container{
-    max-width: 1200px;
+    width: 100%;
     margin:0 auto;
     padding:0 2rem;
   }
@@ -116,8 +116,9 @@
     box-shadow: rgba(0,0,0,0.2)0 10px 15px -3px, rgba(0,0,0,0.1)0 4px 6px -2px;
     scale: 1.2;
   }
-  .btn span{
+  .btn div{
     margin-right:0.4rem;
+    display: inline-block;
   }
   .btn-dark{
     background-color: var(--dark-color);
@@ -159,10 +160,60 @@
     transition: none!important;
   }
   .section-title{
-    width: 320px;
+    width: 310px;
     margin: 0 auto!important;
-    padding: 1rem;
+    text-align: center;
+  
   }
   .App{
     overflow-x: hidden;
+  }
+
+  .animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #fff 0%,
+    #52de45 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 100% auto;
+  color: #fff;
+  background-clip: text;
+  -text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+}
+
+@keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+  }
+
+  .lineUp {
+    animation: 5s anim-lineUp ease-out ;
+  }
+  @keyframes anim-lineUp {
+    0% {
+      opacity: 0;
+      transform: translateY(80%);
+    }
+    20% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
   }

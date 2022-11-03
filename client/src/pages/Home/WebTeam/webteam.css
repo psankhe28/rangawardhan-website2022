@@ -26,7 +26,7 @@
         grid-template-columns: repeat(5, 1fr);
     }
 }
-@media screen and (min-width:1000px) {
+@media screen and (min-width:1200px) {
     .team-content{
         grid-template-columns: repeat(5, 1fr);
     }
@@ -35,4 +35,10 @@
     .team-content{
         grid-template-columns: repeat(5, 1fr);
     }
+}
+.teamtop{
+    font-size:15px;
+    text-align: center;
+    width: 30%;
+    margin-left: 35%;
 }

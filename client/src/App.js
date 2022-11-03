@@ -1,25 +1,39 @@
 import React from 'react'
 import './App.css'
-import Header from './pages/Home/Header/Header.jsx';
 import"./js/script";
-import WhatWeDo from './pages/Home/WhatWeDo/WhatWeDo.jsx'
-import Sponsors from './pages/Home/Sponsors/Sponsors'
+import Sponsors from './pages/Sponsor/Sponsor'
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom"; 
-// import Footer1 from './components/Footer/Footer1'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import Webteam from './pages/Home/WebTeam/Webteam';
+import Home from './pages/home/Home'
+import"./js/script";
+import EventsMain from './pages/Events/EventsMain';
+import DecemberToRemember from './pages/Events/DecemberToRemember';
+import AnnualEvents from './pages/Events/AnnualEvents';
+import VirtualEvents from './pages/Events/VirtualEvents'
+import ContactUs from './pages/ContactUs/ContactUs';
+import Page2 from './pages/About/Page2';
+
+// import Ourteam from './pages/Team/OurTeam/OurTeam';
 AOS.init();
 function App() {
   return (
    <>
-    <Router>
- <Header />
- <WhatWeDo />
- <Sponsors />
- <Webteam />
- {/* <Footer1 /> */}
- </Router>
+     <Router>
+    <Routes>
+        <Route exact path='/'  element={  <Home />} />
+        <Route path='/about' element={<Page2 />} />
+        {<Route path='/sponsors' element ={<Sponsors />} />}
+        {/* {<Route path='/team' element ={<Ourteam />} />} */}
+        {<Route path='/events' element ={<EventsMain />} />}
+        <Route path="/decembertoremember" element={<DecemberToRemember /> } />
+          <Route path="/annualevents" element={<AnnualEvents/>} />
+          <Route path="/virtualevents" element={<VirtualEvents/>} />
+          {<Route path='/contact' element ={<ContactUs /> } />}
+
+    </Routes>
+    </Router>
+ 
    </>
   );
 }

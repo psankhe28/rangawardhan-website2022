@@ -1,0 +1,24 @@
+import "./intro.css";
+import Me from "../../img/Veermata_Jijabai_Technological_Institute_Mumbai.jpg";
+
+const Intro = () => {
+  return (
+    <div className="i">
+      <div className="i-left">
+        <div className="i-left-wrapper">
+              <div className="animate-charcter center">रंगवर्धन</div>
+          <p className="i-desc tast">
+          वीरमाता जिजाबाई टेक्नॉलॉजिकल इन्स्टिट्यूट मध्ये गेल्या २१ वर्षापासून अविरत कार्यरत असणारी रंगवर्धन ही एक मराठी संस्कृती जपणारी आणि राजभाषेचा आवाज टिकवणारी समिती ! मराठी संस्कृतीचा सन्मान करणारं मराठी व्यासपीठ म्हणून नेहमीच प्रत्येक मराठी मनात रंगवर्धनने घर केलं आहे. देशातील एक सर्वोत्तम अभियांत्रिकी महाविद्यालय असूनही मराठीसाठी काम करण्यास रंगवर्धन बांधिल आहे. मराठी कलावंतांना, गौरवास्पद काम करणाऱ्या अद्वितीय व्यक्तिमत्त्वांना तसेच अभियंत्यांच्या कलागुणांना वाव देणारं रंगवर्धन !
+          </p>
+          <button className="btn1"> <a href="https://www.youtube.com/c/Rangawardhan" target="blank">Watch video</a></button>
+        </div>
+      </div>
+      <div className="i-right">
+        <div className="i-bg"></div>
+        <img src={Me} alt="" className="i-img" />
+      </div>
+    </div>
+  );
+};
+
+export default Intro;

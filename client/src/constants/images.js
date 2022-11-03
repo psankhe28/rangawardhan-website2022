@@ -17,7 +17,8 @@ import pratiksha from "../images/Pratiksha_Chief Officer Technical.jpg"
 import bhavika from "../images/IMG-20211226-WA0032 - Bhavika Purav.jpg"
 import apurv from "../images/IMG_20221020_201730 - APURV SONAWANE.jpg"
 import amey from "../images/Picsart_22-10-20_19-46-56-806 - Amey Pashte.jpg"
+import rangablack from "../images/rang22-23_Black.png"
 
 export default{
-    cafe_vjti22,drona,kitabvala,eshaku22,solu22,swad22,TIB,SBI22,Rangwardhan_logo,mudra,Mindi22,VJTI,IMS22,dushant,pratiksha,bhavika,apurv,amey
+    cafe_vjti22,drona,kitabvala,eshaku22,solu22,swad22,TIB,SBI22,Rangwardhan_logo,mudra,Mindi22,VJTI,IMS22,dushant,pratiksha,bhavika,apurv,amey,rangablack
 }

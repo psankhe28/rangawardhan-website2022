@@ -20,3 +20,12 @@
         order: 2;
     }
 }
+.image{
+    min-height: 300px;
+    min-width: 500px;
+   
+}
+.image:hover{
+    opacity: 0.8;
+    scale: 1.1;
+}
