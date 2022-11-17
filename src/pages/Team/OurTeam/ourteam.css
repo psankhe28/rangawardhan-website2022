@@ -1,0 +1,244 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body::after {
+  width: 100%;
+  height: 100%;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.team {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 6vh 0;
+  margin-top: 20px;
+  flex-direction: column;
+}
+
+.team h1 {
+  font-size: 45px;
+  font-weight: 600;
+  color: #000;
+  position: relative;
+  margin-bottom: 30px;
+  padding-bottom: 8px;
+}
+.container {
+  color: #fff;
+}
+.team h1::after {
+  content: " ";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 3px;
+  width: 150px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+.team-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.team-box {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 5px solid #000;
+  margin: 0 20px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  position: relative;
+}
+
+.team-box img {
+  vertical-align: bottom;
+  transition: all 0.3s ease;
+}
+.team-info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transform: scale(0);
+  transition: all 0.3s ease;
+  transform-origin: 0%;
+}
+.team-name {
+  font-size: 25px;
+  font-weight: 600;
+  color: #000;
+  transform: scale(0);
+  transform-origin: 0%;
+  transition: all 0.3s ease;
+}
+.team-details {
+  font-size: 16px;
+  color: #000;
+  font-weight: 500;
+  margin-top: -10px;
+  transition: all 0.3s ease;
+  transform: scale(0);
+  transform-origin: 0%;
+}
+
+.team-social-links {
+  display: flex;
+  justify-content: center;
+  transition: all 0.3s ease;
+  transform: scale(0);
+  transform-origin: 0%;
+}
+
+.team-social-links a {
+  width: 35px;
+  height: 35px;
+  background-color: #fff;
+  margin: 15px;
+  color: #0059ff;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 50%;
+  padding-top: 8px;
+}
+
+.team-social-links a:hover {
+  background-color: transparent;
+  color: #eee;
+}
+
+.team-box:hover .team-info {
+  transform: scale(1);
+}
+
+.team-box:hover img {
+  transform: scale(1.2);
+}
+
+.team-box:hover .team-name,
+.team-box:hover .team-details,
+.team-box:hover .team-social-links {
+  transform: scale(1);
+}
+
+.team-box:hover .team-name {
+  transition: all 0.3s ease 0.2s;
+}
+
+.team-box:hover .team-details {
+  transition: all 0.3s ease 0.3s;
+}
+
+.team-box:hover .team-social-links {
+  transition: all 0.3s ease 0.4s;
+}
+
+.custom-btn {
+  margin:0 40%;
+  width: 330px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  display: inline-block;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+
+.btn-5 {
+  width: 230px;
+  height: 40px;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: rgb(255, 27, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 27, 0, 1) 0%,
+    rgba(251, 75, 2, 1) 100%
+  );
+}
+.btn-5:hover {
+  color: black;
+  background: transparent;
+  box-shadow: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.btn-5:before,
+.btn-5:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 2px;
+  width: 0;
+  background: #f0094a;
+  box-shadow: -1px -1px 5px 0px #fff, 7px 7px 20px 0px #0003,
+    4px 4px 5px 0px #0002;
+  transition: 400ms ease all;
+}
+.btn-5:after {
+  right: inherit;
+  top: inherit;
+  left: 0;
+  bottom: 0;
+}
+.btn-5:hover:before,
+.btn-5:hover:after {
+  width: 100%;
+  transition: 800ms ease all;
+}
+
+.name,
+.post {
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+
+@media screen and (max-width:400px){
+  .custom-btn{
+    margin-left: 30%;
+    font-size: 15px;
+    width:150px;
+    font-weight: bold;
+  }
+  .past{
+    margin-top: 15px;
+    font-size: 25px;
+  }
+}
