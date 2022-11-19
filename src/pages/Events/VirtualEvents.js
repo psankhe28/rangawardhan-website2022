@@ -17,7 +17,7 @@ const VirtualEvents = () => {
           }}
         >
           <h1 class="heading">
-            <span style={{ color: "white" }}>&ensp;रंगवर्धन २०२१-२२&ensp;</span>
+            <span className="past">&ensp;रंगवर्धन २०२१-२२&ensp;</span>
           </h1>
         </div>
         <div
@@ -26,7 +26,7 @@ const VirtualEvents = () => {
             backgroundImage: "linear-gradient(270deg, #28b8d5 0%,#020344 100%)",
           }}
         >
-          <h1 class="heading" style={{ color: "#FFDB58" }}>
+          <h1 class="heading" className="past">
             गप्पा आणि बरंच काही
           </h1>
         </div>
@@ -266,13 +266,13 @@ const VirtualEvents = () => {
             backgroundImage: "linear-gradient(270deg, #28b8d5 0%,#020344 100%)",
           }}>
       <h1 class="heading">
-            <span style={{ color: "white" }}>&ensp;रंगवर्धन २०२०-२१&ensp;</span>
+            <span className="past">&ensp;रंगवर्धन २०२०-२१&ensp;</span>
           </h1>
       </div>
       <div class="minor_events" style={{
             backgroundImage: "linear-gradient(270deg, #28b8d5 0%,#020344 100%)",
           }}>
-        <h1 class="heading" style={{ color: "#FFDB58" }}>गप्पा आणि बरंच काही</h1>
+        <h1 class="heading" className="past">गप्पा आणि बरंच काही</h1>
       </div>
       <section id="online" style={{
             backgroundImage: "linear-gradient(270deg, #28b8d5 0%,#020344 100%)",
@@ -460,7 +460,7 @@ const VirtualEvents = () => {
             backgroundImage: "linear-gradient(270deg, #28b8d5 0%,#020344 100%)",
           }}
         >
-          <h1>घे उंच भरारी</h1>
+          <h1 className="past">घे उंच भरारी</h1>
         </div>
         <section
           id="online"

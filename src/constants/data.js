@@ -36,24 +36,16 @@ const ranga_info =[
 
 const sponsor =[
     {
-        img:`${images.cafe_vjti22}`,
-        title:"cafevjti",
+        img:`${images.SBI22}`,
+        title:"SBI22",
     },
     {
-        img:`${images.drona}`,
-        title:"drona",
-    },
-    {
-        img:`${images.eshaku22}`,
-        title:"eshaku",
+        img:`${images.lic}`,
+        title:"Lic",
     },
     {
         img:`${images.IMS22}`,
         title:"IMSS",
-    },
-    {
-        img:`${images.kitabvala}`,
-        title:"kitabvala",
     },
     {
         img:`${images.Mindi22}`,
@@ -64,17 +56,31 @@ const sponsor =[
         title:"Mudra",
     },
     {
-        img:`${images.SBI22}`,
-        title:"SBI22",
+        img:`${images.TIB}`,
+        title:"TIB",
     },
+    {
+        img:`${images.cafe_vjti22}`,
+        title:"cafevjti",
+    },
+
     {
         img:`${images.swad22}`,
         title:"swad",
     },
     {
-        img:`${images.TIB}`,
-        title:"TIB",
+        img:`${images.drona}`,
+        title:"drona",
     },
+    {
+        img:`${images.eshaku22}`,
+        title:"eshaku",
+    },
+    {
+        img:`${images.kitabvala}`,
+        title:"kitabvala",
+    },
+   
     {
         img:`${images.solu22}`,
         title:"Solu",

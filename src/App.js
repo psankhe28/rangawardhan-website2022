@@ -17,7 +17,7 @@ import Ourteam from './pages/Team/OurTeam/OurTeam';
 import CoreCommittee from './pages/Team/CoreCommittee/CoreCommittee'
 import Gallery from './pages/Gallery/gallery';
 import './js/script';
-
+import Natya from './pages/Natyavardhan/Natya';
 AOS.init();
 function App() {
   return (
@@ -37,6 +37,7 @@ function App() {
           <Route path="/virtualevents" element={<VirtualEvents/>} />
           <Route path='/contact' element ={<ContactUs /> } />
           <Route path ='/gallery' element ={<Gallery />  } />
+          <Route path ='/natyavardhan' element ={<Natya />} />
           </Routes>
         </div>
       </Router>

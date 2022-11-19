@@ -10,9 +10,9 @@ import Webteam from "../../home/WebTeam/Webteam";
 const Ourteam = () => {
   return (
     <div style={{backgroundImage:'linear-gradient(270deg, #28b8d5 0%,#020344 100%)'}}>
-      <div className="container" style={{marginTop:'20px',backgroundImage:'linear-gradient(270deg, #28b8d5 0%,#020344 100%)'}}>
+      <div className="container" style={{backgroundImage:'linear-gradient(270deg, #28b8d5 0%,#020344 100%)'}}>
         <div className="section-title" data-aos="zoom-in-up" style={{borderRadius:'10px'}}>
-          <h2 className="past" >Our Team</h2>
+          <h2 className="animate-charcter" style={{marginTop:"3%"}} >Our Team</h2>
         </div>
         <div className="team-content py-2 grid" data-aos="zoom-in-up">
           {data.teams.map((teams, index) => {
@@ -26,9 +26,9 @@ const Ourteam = () => {
                 ></img>
                 <div className="team-info">
                   <div className="team-social-links">
-                    <a href={teams.m}><FaEnvelope/></a>
-                    <a href={teams.i}><FaInstagram/></a>
-                    <a href={teams.l}><FaLinkedin/></a>
+                    <a href={teams.m} target="blank"><FaEnvelope/></a>
+                    <a href={teams.i} target="blank"><FaInstagram/></a>
+                    <a href={teams.l} target="blank"><FaLinkedin/></a>
                   </div>
                 </div>
               </div>
@@ -42,13 +42,13 @@ const Ourteam = () => {
 <br/>
       <Link to="/corecommittee">
         <div className="center">
-          <button className="custom-btn btn-5">Core Committee</button>
+          <button className="custom-btn btn-5" style={{marginTop:"1%"}}>Core Committee</button>
         </div>
       </Link>
       <br/>
       <div className="container">
         <div className="section-title" data-aos="zoom-in-up" style={{borderRadius:'10px'}}>
-          <h2 className="past">Previous Team</h2>
+          <h2 className="animate-charcter" style={{margin:"3%"}}>Previous Team</h2>
         </div>
         <div className="team-content py-2 grid" data-aos="zoom-in-up">
           {data.pastTeam.map((teams, index) => {
@@ -71,7 +71,7 @@ const Ourteam = () => {
       </div>
          <div className="container">
         <div className="section-title" data-aos="zoom-in-up" style={{borderRadius:'10px'}}>
-          <h2 className="past">Our Mentors</h2>
+          <h2 className="animate-charcter" style={{marginTop:"1%"}}>Our Mentors</h2>
         </div>
         <div className="team-content py-2 grid" data-aos="zoom-in-up">
           {data.mentor.map((teams, index) => {

@@ -1,5 +1,5 @@
 .sponsors-content {
-  gap: 6rem;
+  /* gap: 1rem; */
   grid-template-columns: repeat(1, 1fr);
   border: 3px;
 }
@@ -8,18 +8,21 @@
   background-image: linear-gradient(#28b8d5, #020344);
 }
 .sponsors-item {
-  padding: 2rem;
+  padding-left: 2rem;
+  padding-bottom: 2rem;
+  padding-right: 2rem;
   display: flex;
   flex-direction: column;
   min-height: 160px;
-  justify-content: space-between;
+  justify-content:center;
   cursor: pointer;
-
+  align-content: center;
   transition: var(--transition);
+ 
 }
 
 .sponsors-item img {
-  max-width: 90%;
+  max-width: 60%;
   border-radius: 15%;
 }
 .sponsors-item h4 {
@@ -32,11 +35,11 @@
 }
 @media screen and (min-width: 900px) {
   .sponsors-content {
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(6, 1fr);
   }
 }
 @media screen and (max-width: 800px) {
   #sponsors {
-    padding-top: 20%;
+    padding-top: 40%;
   }
 }

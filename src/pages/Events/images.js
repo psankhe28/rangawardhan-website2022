@@ -50,6 +50,13 @@ import may from "../../images/may.jpg"
 import aajadi from "../../images/aajadi.jpg"
 import shubharambh from "../../images/shubharambh.jpg"
 import standup from "../../images/standup.jpg"
+import skit from "../../images/skit.JPG"
+import squid from "../../images/squid.JPG"
+import abhangmaifil from "../../images/abhangmaifil.JPG"
+import nrityavishkar from "../../images/nritya.JPG"
+import sing from "../../images/sing.JPG"
+import bakshis from "../../images/bakshis.JPG"
+import sparshband from "../../images/djbest.jpg"
 export default {
   shubharambh,
   standup,
@@ -98,4 +105,11 @@ export default {
   rajesh,
   raj,
   ash,
+  skit,
+  squid,
+  abhangmaifil,
+  nrityavishkar,
+  sing,
+  bakshis,
+  sparshband
 };

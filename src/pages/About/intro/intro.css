@@ -1,7 +1,7 @@
 .i {
   display: flex;
   height: 100vh;
-  background-image: linear-gradient(#28b8d5,#020344);
+  background-image: linear-gradient(#020344,#28b8d5);
 }
 
 .i-left {

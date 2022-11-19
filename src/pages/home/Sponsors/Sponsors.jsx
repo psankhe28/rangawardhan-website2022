@@ -14,7 +14,7 @@ const Sponsors = () => {
               data.sponsor.map((spons,index)=>{
             return (
                 <div className='sponsors-item text-center' key={index}>
-                    <img src = {spons.img} alt="spons images" className='mx-auto' data-aos="zoom-in-up" data-aos-duration="3000"></img>
+                    <img src = {spons.img} alt="spons images" className='mx-auto' data-aos="zoom-in-up" data-aos-duration="3000" style={{ border: "2px solid rgb(255, 174, 66"}}></img>
                     {/* <h4 className='text-upper' data-aos="zoom-in" data-aos-duration="3000">{spons.title}</h4> */}
                 </div>
             )

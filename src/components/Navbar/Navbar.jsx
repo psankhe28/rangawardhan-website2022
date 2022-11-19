@@ -14,13 +14,13 @@ const Navbar = () => {
             <div className="brand-and-toggler flex">
              <Link to="/" alt =""  className="navbar-brand text-upper fw-7 fs-22 flex " data-aos = "fade-right"  data-aos-duration="3000">
              <img src= {images.Rangwardhan_logo} alt="ranga" className="ranga-logo" />
-                <span className="text-white">Ranga</span>
-                <span style={{color:"#ffae42"}}>wardhan</span>
+                <span className="text-white navhead">Ranga</span>
+                <span style={{color:"#ffae42"}} className="navhead">wardhan</span>
              </Link>
-             <div className="lang">
+             {/* <div className="lang">
          
                 <span style={{color:"#ffae42",marginLeft:'-20%'}}>Translate</span>       <div id="google_translate_element" style={{width:'30px'}}></div>
-             </div>
+             </div> */}
              <button type="button"
              className="navbar-show-btn text-white" onClick={()=>handleClick()}  >
                 <FaBars size={26} />

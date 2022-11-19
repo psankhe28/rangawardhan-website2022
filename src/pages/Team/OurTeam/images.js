@@ -1,4 +1,4 @@
-import Tejashree from '../../../images/Tejashree Shinde Team Rangawardhan - GS.jpg';
+import Tejashree from '../../../images/Tejashree.jpg';
 import Saurabh from '../../../images/Saurabh.jpg';
 import Kalyani from '../../../images/Kalyani.jpg';
 import YUVRAJ from '../../../images/YUVRAJ.jpg';

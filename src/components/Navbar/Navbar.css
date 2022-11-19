@@ -1,5 +1,6 @@
 .Navbar {
-    background-color: black;
+background: transparent;
+    z-index: 50;
 }
 
 .brand-and-toggler {
@@ -9,7 +10,12 @@
     height: 80px;
     top: 0px;
 }
-
+.nav-link{
+    font-weight: normal;
+}
+.nav-link:hover{
+    color: red;
+}
 .nav-link::after {
     content: '';
     position: absolute;
@@ -76,7 +82,11 @@
     top: 2rem;
     transition: var(--transition);
 }
-
+@media screen and (max-width: 480px){
+    .navhead{
+        font-size: 60%;
+    }
+}
 .navbar-collapse .navbar-hide-btn:hover {
     opacity: 0.9;
 }

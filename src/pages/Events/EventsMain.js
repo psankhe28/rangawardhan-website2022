@@ -16,7 +16,7 @@ const EventsMain = () => {
       >
       </div>
       <div className="section-title" data-aos="zoom-in-up">
-        <h3 className=" past">Our Past Events</h3>
+        <h3 className=" animate-charcter">Our Past Events</h3>
       </div>
       <div className="events-container">
         <div class="wrapper">
