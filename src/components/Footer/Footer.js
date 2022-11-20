@@ -43,7 +43,7 @@ const Footer = () => {
               </div>
             </h3>
             <p>VJTI college</p>
-            <p>Matunga,Mumbai-400019,Maharashtra,India</p>
+            <p>Matunga, Mumbai-400019, Maharashtra, India</p>
             <p className="email-id">rangawardhanfest@gmail.com</p>
             
           </div>
