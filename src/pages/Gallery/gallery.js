@@ -33,7 +33,7 @@ import sahil from './img/sahil.JPG';
 import sar from './img/sarswati.JPG';
 import sq1 from './img/sq1.jpg';
 import sq2 from './img/sq2.jpg';
-import sq3 from './img/sq3.jpg';
+import sq3 from './img/stage.jpg';
 import sq4 from './img/sq4.jpg';
 import sq5 from './img/sq5.jpg';
 import sq6 from './img/sq6.jpg';
