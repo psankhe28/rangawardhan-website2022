@@ -46,6 +46,8 @@ const Ourteam = () => {
         </div>
       </Link>
       <br/>
+                  <Webteam />
+ <br/>
       <div className="container">
         <div className="section-title" data-aos="zoom-in-up" style={{borderRadius:'10px'}}>
           <h2 className="animate-charcter" style={{margin:"3%"}}>Previous Team</h2>
@@ -97,7 +99,6 @@ const Ourteam = () => {
           })}
         </div>
       </div>
-      <Webteam />
       </div>
   );
 };
