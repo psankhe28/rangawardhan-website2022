@@ -7,7 +7,7 @@ const teams = [{
     Post: 'Secretary',
     l:'https://www.linkedin.com/in/tejashree-shinde-818820178',
     i:'https://www.instagram.com/tejashreeshinde_/',
-    m:'tsshinde_b21@ce.vjti.ac.in'
+    m:'mailto: tsshinde_b21@ce.vjti.ac.in'
 },
 {
     img: `${images.Saurabh}`,
@@ -15,7 +15,7 @@ const teams = [{
     Post: 'Secretary',
     l:'https://www.linkedin.com/in/saurabh-pawar-406124217',
     i:'https://instagram.com/saurabh_pawar_03',
-    m:'sppawar_b20@ci.vjti.ac.in'
+    m:'mailto: sppawar_b20@ci.vjti.ac.in'
 },
 {
     img: `${images.Kalyani}`,
@@ -23,7 +23,7 @@ const teams = [{
     Post: 'Chief Coordinator',
     l:'https://www.linkedin.com/in/kalyani-shirsath-81123518b',
     i:'https://www.instagram.com/kalyani_shirsath17/',
-    m:'ksshrisath_b21@it.vjti.ac.in'
+    m:'mailto: ksshrisath_b21@it.vjti.ac.in'
 },
 {
     img: `${images.KRISHNA}`,
@@ -31,7 +31,7 @@ const teams = [{
     Post: 'Chief Coordinator',
     l:'https://www.linkedin.com/in/krishnajgd18',
     i:'https://instagram.com/krishna.kulkarni.18',
-    m:'kgkulkarni_b21@me.vjti.ac.in'
+    m:'mailto: kgkulkarni_b21@me.vjti.ac.in'
 },
 {
     img: `${images.Kashyap}`,
@@ -39,7 +39,7 @@ const teams = [{
     Post: 'Treasurer',
     l:'https://www.linkedin.com/in/kashyap-chavhan-68052b205/',
     i:'https://www.instagram.com/kashyapchavhan1106/',
-    m:'kdchavhan_b20@it.vjti.ac.in'
+    m:'mailto: kdchavhan_b20@it.vjti.ac.in'
 },
 {
     img: `${images.YUVRAJ}`,
@@ -47,7 +47,7 @@ const teams = [{
     Post: 'Treasurer',
     l:'https://www.linkedin.com/in/yuvraj-kharat-b2489a242',
     i:'https://instagram.com/yuvraj_kharat07',
-    m:'ybkharat_b20@ci.vjti.ac.in'
+    m:'mailto: ybkharat_b20@ci.vjti.ac.in'
 }]
 
 
@@ -58,7 +58,7 @@ const sectorHeads=[
         Post: 'Chief Sponsorship Officer',
         l:'https://www.linkedin.com/in/adarsh-karande-547b0b20a',
         i:'https://www.instagram.com/theadarsh26/',
-        m:'aakarande_b21@it.vjti.ac.in'
+        m:'mailto: aakarande_b21@it.vjti.ac.in'
     },
     {
         img: `${images.Shraddha}`,
@@ -66,7 +66,7 @@ const sectorHeads=[
         Post: 'Chief Sponsorship Officer',
         l:'https://www.linkedin.com/in/shraddha-dige-5a7b2b254',
         i:'https://www.instagram.com/invites/contact/?i=1l6u4xiotwflr&utm_content=4f9gcls',
-        m:'ssdige_b21@ee.vjti.ac.in'
+        m:'mailto: ssdige_b21@ee.vjti.ac.in'
     },
     {
         img: `${images.Shrishail}`,
@@ -74,7 +74,7 @@ const sectorHeads=[
         Post: 'Chief Execution Officer',
         l:'https://www.linkedin.com/in/shrishail-dolle-137425233',
         i:'https://www.instagram.com/p/CcI8ZpzPijTwBlScPOZ_3vQcc-cEBO2gxRz6bE0/',
-        m:'ssdolle_b20@et.vjti.ac.in'
+        m:'mailto: ssdolle_b20@et.vjti.ac.in'
     },
     {
         img: `${images.AMOL}`,
@@ -82,7 +82,7 @@ const sectorHeads=[
         Post: 'Chief Execution Officer',
         l:'https://www.linkedin.com/in/amol-jethe-566b5b251',
         i:'https://instagram.com/killer_amol?igshid=YmMyMTA2M2Y=',
-        m:'adjethe_d21@el.vjti.ac.in'
+        m:'mailto: adjethe_d21@el.vjti.ac.in'
     },
     {
         img: `${images.Ayush}`,
@@ -90,7 +90,7 @@ const sectorHeads=[
         Post: 'Chief Public Relations Officer',
         l:'https://www.linkedin.com/hp/',
         i:'https://instagram.com/asr_banait?igshid=YmMyMTA2M2Y=',
-        m:'arbanait_b21@me.vjti.ac.in'
+        m:'mailto: arbanait_b21@me.vjti.ac.in'
     },
     {
         img: `${images.Bhagyashri}`,
@@ -98,7 +98,7 @@ const sectorHeads=[
         Post: 'Chief Public Relations Officer',
         l:'https://www.linkedin.com/hp/',
         i:'https://www.instagram.com/',
-        m:'bbkamble_d20@ci.vjti.ac.in'
+        m:'mailto: bbkamble_d20@ci.vjti.ac.in'
     },
     {
         img: `${images.Vinayak}`,
@@ -106,7 +106,7 @@ const sectorHeads=[
         Post: 'Chief Marketing Officer',
         l:'https://www.linkedin.com/hp/',
         i:'https://www.instagram.com/',
-        m:'vdsonawane_b20@pe.vjti.ac.in'
+        m:'mailto: vdsonawane_b20@pe.vjti.ac.in'
     },
     {
         img: `${images.Ruie}`,
@@ -114,7 +114,7 @@ const sectorHeads=[
         Post: 'Chief Marketing Officer',
         l:'https://www.linkedin.com/hp/',
         i:'https://www.instagram.com/invites/contact/?i=5pqjdf85r477&utm_content=l1hy4q7',
-        m:'rrjoshi_b20@tx.vjti.ac.in'
+        m:'mailto: rrjoshi_b20@tx.vjti.ac.in'
     },
     {
         img: `${images.Alok}`,
@@ -122,7 +122,7 @@ const sectorHeads=[
         Post: 'Chief Design Officer',
         l:'https://www.linkedin.com/in/alok-bandichode-639402212',
         i:'https://www.instagram.com/alokbandichode?r=nametag',
-        m:'aabandichode_b20@tx.vjti.ac.in'
+        m:'mailto: aabandichode_b20@tx.vjti.ac.in'
     },
     {
         img: `${images.Pranjal}`,
@@ -138,7 +138,7 @@ const sectorHeads=[
         Post: ' Chief Content Writing Officer',
         l:'https://www.linkedin.com/hp/',
         i:'https://instagram.com/the_miss_pranjal?igshid=YmMyMTA2M2Y=',
-        m:'pbjadhav_b20@me.vjti.ac.in'
+        m:'mailto: pbjadhav_b20@me.vjti.ac.in'
     },
     {
         img: `${images.Aditi}`,
