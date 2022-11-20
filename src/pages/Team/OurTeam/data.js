@@ -7,7 +7,7 @@ const teams = [{
         Post: 'Secretary',
         l:'https://www.linkedin.com/in/tejashree-shinde-818820178',
         i:'https://www.instagram.com/tejashreeshinde_/',
-        m:'tsshinde_b21@ce.vjti.ac.in'
+        m:'mailto: tsshinde_b21@ce.vjti.ac.in'
     },
     {
         img: `${images.Saurabh}`,
@@ -15,7 +15,7 @@ const teams = [{
         Post: 'Secretary',
         l:'https://www.linkedin.com/in/saurabh-pawar-406124217',
         i:'https://instagram.com/saurabh_pawar_03',
-        m:'sppawar_b20@ci.vjti.ac.in'
+        m:'mailto: sppawar_b20@ci.vjti.ac.in'
     },
     {
         img: `${images.Kalyani}`,
@@ -23,7 +23,7 @@ const teams = [{
         Post: 'Chief Coordinator',
         l:'https://www.linkedin.com/in/kalyani-shirsath-81123518b',
         i:'https://www.instagram.com/kalyani_shirsath17/',
-        m:'ksshrisath_b21@it.vjti.ac.in'
+        m:'mailto: ksshrisath_b21@it.vjti.ac.in'
     },
     {
         img: `${images.KRISHNA}`,
@@ -31,7 +31,7 @@ const teams = [{
         Post: 'Chief Coordinator',
         l:'https://www.linkedin.com/in/krishnajgd18',
         i:'https://instagram.com/krishna.kulkarni.18',
-        m:'kgkulkarni_b21@me.vjti.ac.in'
+        m:'mailto: kgkulkarni_b21@me.vjti.ac.in'
     },
     {
         img: `${images.Kashyap}`,
@@ -39,7 +39,7 @@ const teams = [{
         Post: 'Treasurer',
         l:'https://www.linkedin.com/in/kashyap-chavhan-68052b205/',
         i:'https://www.instagram.com/kashyapchavhan1106/',
-        m:'kdchavhan_b20@it.vjti.ac.in'
+        m:'mailto: kdchavhan_b20@it.vjti.ac.in'
     },
     {
         img: `${images.YUVRAJ}`,
@@ -47,7 +47,7 @@ const teams = [{
         Post: 'Treasurer',
         l:'https://www.linkedin.com/in/yuvraj-kharat-b2489a242',
         i:'https://instagram.com/yuvraj_kharat07',
-        m:'ybkharat_b20@ci.vjti.ac.in'
+        m:'mailto: ybkharat_b20@ci.vjti.ac.in'
     }]
 
 const pastTeam=[
@@ -92,17 +92,17 @@ const mentor=[
     {
         img: `${images.sir}`,
         name: "Mandar Tendolkar",
-        mail:'mvtendolkar@me.vjti.ac.in'
+        mail:'mailto: mvtendolkar@me.vjti.ac.in'
     },
     {
         img: `${images.ma}`,
         name: "Manasi Kulkarni",
-        mail:'mukulkarni@ce.vjti.ac.in'
+        mail:'mailto: mukulkarni@ce.vjti.ac.in'
     },
     {
         img: `${images.an}`,
         name: "Anjali Dhiware",
-        mail:'ardhiware@me.vjti.ac.in'
+        mail:'mailto: ardhiware@me.vjti.ac.in'
     }
 ]
 export default {
