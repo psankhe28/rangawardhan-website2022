@@ -48,7 +48,7 @@ const ContactUs = () => {
               <p>
                 VJTI college
                 <br />
-                Matunga,Mumbai-400019,Maharashtra,India
+                Matunga, Mumbai-400019, Maharashtra, India.
               </p>
             </div>
           </div>
