@@ -40,7 +40,7 @@ import sq6 from './img/sq6.jpg';
 import lag from './img/lagori.JPG';
 import open from './img/open.JPG';
 import n1 from './img/n1.JPG';
-import n2 from './img/squid.JPG';
+import n2 from './img/squid.jpg';
 import n3 from './img/n3.JPG';
 import n4 from './img/n4.JPG';
 import n5 from './img/n5.JPG';
