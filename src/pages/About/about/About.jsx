@@ -8,7 +8,7 @@ const About = () => {
         {/* <div className="a-card bg"></div> */}
         <div className="a-card">
           <img
-            src="https://i.ytimg.com/vi/bVKbi98mPTk/maxresdefault.jpg"
+            src="https://i.ytimg.com/vi/bVKbi98mPTk/maxresdefault.jpg" style={{ border: "3px solid rgb(255, 174, 66"}}
             alt=""
             className="a-img" data-aos="fade-right"
      data-aos-offset="300"

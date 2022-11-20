@@ -15,7 +15,7 @@ const DecemberToRemember = () => {
                 paddingTop:'3%'
               }}
             >
-              <div className="past">  दैदिप्यवान </div>
+              <div className="past" style={{fontSize:'180%'}}>  दैदिप्यवान</div>
               <span
                 style={{
                   color: "#FFDB58",
@@ -23,16 +23,17 @@ const DecemberToRemember = () => {
                   fontWeight: "bold",
                 }}
               >
-                &ensp;रंगवर्धन&ensp;
+                
               </span>
-              <div className="past">     सोहळा ! </div>
+              <div className="past" style={{margin:'1%',fontSize:'180%'}}>रंगवर्धन</div>
+              <div className="past"  style={{fontSize:'180%'}}>सोहळा ! </div>
             </h1>
           </div>
           <section id="day_1">
             <section class="day1">
               <div class="event_day">
-                <h3 className="past">
-                  दिवस - <span className="past">१</span>
+                <h3 className="past" style={{fontSize:'160%'}} >
+                  दिवस - १
                 </h3>
               </div>
               <div class="events">
@@ -44,7 +45,7 @@ const DecemberToRemember = () => {
                     <div class="event_info_name">
                       <h4>महाउद्घाटन सोहळा</h4>
                       <h5 className="dectoremhead">
-                      असे म्हणतात की’ पहिली छाप ही शेवटची छाप असते’; आणि रंगवर्धनची पहिली छाप तर महाउद्घाटन सोहळ्यात दिसते.ढोल-ताशांच्या गजरात, टाळ मृदुंगाच्या निनादात पालखी वारीचे प्रदर्शन सर्वांसमोर केले जाते.हा सुंदर सोहळा पाहून पुढचे ३ दिवस रंगवर्धनमध्ये सहभागी होण्याची उत्सुकता सर्वांच्या चेहऱ्यावरती दिसून येते.
+                      असे म्हणतात की’ पहिली छाप ही शेवटची छाप असते; आणि रंगवर्धनची पहिली छाप तर महाउद्घाटन सोहळ्यात दिसते.ढोल-ताशांच्या गजरात, टाळ मृदुंगाच्या निनादात पालखी वारीचे प्रदर्शन सर्वांसमोर केले जाते.हा सुंदर सोहळा पाहून पुढचे ३ दिवस रंगवर्धनमध्ये सहभागी होण्याची उत्सुकता सर्वांच्या चेहऱ्यावरती दिसून येते.
                       </h5>
                     </div>
                   </div>
@@ -86,8 +87,8 @@ const DecemberToRemember = () => {
           <section id="day_1">
             <section class="day1" >
               <div class="event_day">
-                <h3 className="past">
-                  दिवस -<span style={{ color: "#FFDB58" }}> २</span>
+                <h3 className="past"  style={{fontSize:'160%'}}>
+                  दिवस - २
                 </h3>
               </div>
               <div class="events">
@@ -123,8 +124,8 @@ const DecemberToRemember = () => {
           <section id="day_1">
             <section class="day1">
               <div class="event_day">
-                <h3 className="past">
-                  दिवस -<span style={{ color: "#FFDB58" }}>३</span>
+                <h3 className="past"  style={{fontSize:'160%'}}>
+                  दिवस -३
                 </h3>
               </div>
               <div class="events">

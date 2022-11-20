@@ -10,7 +10,7 @@ const AnnualEvents = () => {
          <section>
     <section>
       <div class="yearly_events">
-        <h1 class="year_name" style={{ color: "#FFDB58" }}>वार्षिक महोत्सव</h1>
+        <h1 class="year_name" className='past'>वार्षिक महोत्सव</h1>
       </div>
       <section id="all_events">
         <section class="allevents">

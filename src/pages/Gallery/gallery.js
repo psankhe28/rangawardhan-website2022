@@ -56,7 +56,9 @@ import tabala from './img/tabala.jpg';
 import white from './img/white.JPG';
 import tshirt from './img/tshirt.JPG';
 import cant from './img/canteen.jpg'
-
+import treasure1 from './img/treasure1.jpg'
+import treasure2 from './img/treasure2.jpg'
+import treasure3 from './img/treasure3.jpg'
 
 
 
@@ -81,7 +83,7 @@ const getImg=(imgSrc)=>{
        <FaTimes  onClick={()=> setModel(false)}/>
     </div>
 
-    <div className="header_content">
+    {/* <div className="header_content">
     <img src={cant} style={{width: '100%',height:'600px'}} alt=''/>
         <div className="scroll-container">
           <div className="chevron"></div>
@@ -89,10 +91,10 @@ const getImg=(imgSrc)=>{
           <div className="chevron"></div>
           <span className="text1" style={{color: 'black',fontWeight: 'bold',fontSize: '30px'}}>Scroll down</span>
         </div>
-      </div>
+      </div> */}
     
    
-    <div className="gallery" style={{marginTop:'150px'}}>
+    <div className="gallery" >
         {/* {data.map((item,index)=>{ */}
 
                 <div className="pics"  onClick={()=>getImg(rang)} >
@@ -109,6 +111,12 @@ const getImg=(imgSrc)=>{
                 </div>
                 <div className="pics"  onClick={()=>getImg(tyteam)}>
                      <img src={tyteam} style={{width: '100%'}} alt=''/>
+                </div>
+                <div className="pics"  onClick={()=>getImg(treasure1)}>
+                     <img src={treasure1} style={{width: '100%'}} alt=''/>
+                </div>
+                <div className="pics"  onClick={()=>getImg(treasure2)}>
+                     <img src={treasure2} style={{width: '100%'}} alt=''/>
                 </div>
                 <div className="pics"  onClick={()=>getImg(yoda2)} >
                      <img src={yoda2} style={{width: '100%'}} alt=''/>
@@ -260,6 +268,9 @@ const getImg=(imgSrc)=>{
                 </div>
                 <div className="pics"  onClick={()=>getImg(n10)}>
                      <img src={n10} style={{width: '100%'}} alt=''/>
+                </div>
+                <div className="pics"  onClick={()=>getImg(treasure3)}>
+                     <img src={treasure3} style={{width: '100%'}} alt=''/>
                 </div>
 
             {/* )
