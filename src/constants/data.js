@@ -128,6 +128,9 @@ const teams = [
         m:'mailto: https://www.linkedin.com/in/amey-pashte-b85354191'
     }
 ]
-export default{
-    ranga_info,sponsor,teams
+
+const exportedObject = {
+    ranga_info,sponsor,teams,
 };
+
+export default exportedObject

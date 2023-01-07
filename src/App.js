@@ -17,7 +17,7 @@ import Ourteam from './pages/Team/OurTeam/OurTeam';
 import CoreCommittee from './pages/Team/CoreCommittee/CoreCommittee'
 import Gallery from './pages/Gallery/gallery';
 import './js/script';
-import Natya from './pages/Natyavardhan/Natya';
+import Natya from './pages/Natyavardhan/Natyavardhan';
 AOS.init();
 function App() {
   return (

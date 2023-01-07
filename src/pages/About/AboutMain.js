@@ -16,8 +16,7 @@ const Page2 = () => {
         color: darkMode && "white"
       }}
     >
-      {/* <Toggle /> */}
-      <Intro />
+          <Intro />
       <About />
     </div>
   );

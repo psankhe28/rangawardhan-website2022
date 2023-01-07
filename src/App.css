@@ -2,6 +2,7 @@
   outline: none;
   border-bottom: 0;
   font-family: Gotu;
+  text-align: center;
 }
 .container {
   width: 100%;
@@ -221,7 +222,7 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: textclip 2s linear infinite;
-  display: inline-block;
+  /* display: inline-block; */
 }
 
 @keyframes textclip {

@@ -22,8 +22,7 @@ import bhavika from "../../../images/IMG-20211226-WA0032 - Bhavika Purav.jpg"
 import apurv from "../../../images/IMG_20221020_201730 - APURV SONAWANE.jpg"
 import amey from "../../../images/Picsart_22-10-20_19-46-56-806 - Amey Pashte.jpg"
 
-
-export default {
+const e={
     Tejashree,
     Saurabh,
     Kalyani,
@@ -44,3 +43,5 @@ export default {
     Vinayak,
     pratiksha,bhavika,apurv,amey,dushant
 }
+
+export default e;

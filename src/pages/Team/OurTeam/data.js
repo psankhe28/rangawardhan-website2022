@@ -105,7 +105,9 @@ const mentor=[
         mail:'mailto: ardhiware@me.vjti.ac.in'
     }
 ]
-export default {
+
+const d= {
 
     teams,pastTeam,mentor
 };
+export default d;

@@ -137,6 +137,8 @@ const s = [
     }
 ]
 
-export default {
+const a= {
     sponsor,s
 };
+
+export default a;

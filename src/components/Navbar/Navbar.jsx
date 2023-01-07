@@ -13,14 +13,11 @@ const Navbar = () => {
         <div className="container flex navbar-content ">
             <div className="brand-and-toggler flex">
              <Link to="/" alt =""  className="navbar-brand text-upper fw-7 fs-22 flex " data-aos = "fade-right"  data-aos-duration="3000">
-             <img src= {images.Rangwardhan_logo} alt="ranga" className="ranga-logo" />
+             <img src= {images.Rangwardhan_logo} alt="ranga" className="ranga-logo"
+              />
                 <span className="text-white navhead">Ranga</span>
                 <span style={{color:"#ffae42"}} className="navhead">wardhan</span>
              </Link>
-             {/* <div className="lang">
-         
-                <span style={{color:"#ffae42",marginLeft:'-20%'}}>Translate</span>       <div id="google_translate_element" style={{width:'30px'}}></div>
-             </div> */}
              <button type="button"
              className="navbar-show-btn text-white" onClick={()=>handleClick()}  >
                 <FaBars size={26} />
@@ -33,7 +30,7 @@ const Navbar = () => {
     </button>
     <ul className="navbar-nav text-upper text-white fw-6 ls-1 fs-2- text-center"  >
     <li className="nav-item">
-     <img src={images.Rangwardhan_logo} className="navbar-image vert-move" />
+     <img src={images.Rangwardhan_logo} className="navbar-image vert-move" alt='' />
        </li>
        <li className="nav-item">
         <Link  to="/" className="nav-link" onClick={()=>close()}>Home</Link>

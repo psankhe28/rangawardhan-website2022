@@ -57,7 +57,7 @@ import nrityavishkar from "../../images/nritya.JPG"
 import sing from "../../images/sing.JPG"
 import bakshis from "../../images/bakshis.JPG"
 import sparshband from "../../images/djbest.jpg"
-export default {
+const export1={
   shubharambh,
   standup,
   aajadi,
@@ -113,3 +113,4 @@ export default {
   bakshis,
   sparshband
 };
+export default export1;

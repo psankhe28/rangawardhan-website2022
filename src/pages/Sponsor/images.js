@@ -51,8 +51,7 @@ import twr from "../../images/The_White_Room.jpg"
 
 
 
-
-export default {
+const  b={
     cafe_vjti22,
     drona,
     kitabvala,
@@ -103,3 +102,5 @@ export default {
     Jawed,
     twr
 }
+
+export default b;

@@ -14,7 +14,7 @@ const Intro = () => {
         </div>
       </div>
       <div className="i-right">
-        <ReactPlayer url="https://www.youtube.com/watch?v=8_TCCY8cVkg" style={{ border: "2px solid rgb(255, 174, 66"}} className="video" controls={true}  data-aos="zoom-in" data-aos-duration="3000" />
+        <ReactPlayer url="https://www.youtube.com/watch?v=LNyfc1-2FDA" style={{ border: "2px solid rgb(255, 174, 66"}} className="video" controls={true}  data-aos="zoom-in" data-aos-duration="3000" />
       </div>
     </div>
   );

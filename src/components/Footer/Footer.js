@@ -1,10 +1,7 @@
 import React from "react";
 import "./Footer.css";
-// import logo from "../../assets/logo.svg";
 import styled from "styled-components";
 import {
-  FaEnvelope,
-  FaArrowRight,
   FaTwitter,
   FaFacebook,
   FaYoutube,

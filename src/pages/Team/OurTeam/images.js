@@ -15,7 +15,7 @@ import sir from '../../../images/sir.jpg'
 import an from '../../../images/anjalimaam.jpg';
 import ma from '../../../images/mansimaam.jpg'
 
-export default {
+const f={
     Tejashree,
     Saurabh,
     Kalyani,
@@ -31,3 +31,5 @@ export default {
     Lenyadri
     ,sir,ma,an
 }
+
+export default f;

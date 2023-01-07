@@ -179,8 +179,9 @@ const WebDev = [
     }
 ]
 
-export default {
+const c= {
 
     teams,sectorHeads,WebDev
 };
+export default c;
 

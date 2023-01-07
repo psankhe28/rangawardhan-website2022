@@ -24,6 +24,9 @@ import rangawhite from "../images/rang22-23_White.png"
 import ranga from "../images/Ranga.png"
 import lic from "../images/LIC.jpg"
 
-export default{
+
+const exported= {
     ranga,cafe_vjti22,drona,kitabvala,eshaku22,solu22,swad22,TIB,SBI22,Rangwardhan_logo,mudra,Mindi22,VJTI,IMS22,dushant,pratiksha,bhavika,apurv,amey,rangablack,ranga_bg,djbest,rangawhite,lic
-}
+};
+
+export default exported

@@ -1,5 +1,4 @@
 import React from "react";
-// import { images } from "../../../constants/data";
 import images from "../../../constants/images.js";
 import "./WhatWeDo.css";
 import { Link } from "react-router-dom";
@@ -29,7 +28,7 @@ const WhatWeDo = () => {
                 विविध स्पर्धा आयोजित करत असते .विद्यार्थ्यांना आपले कलाकुसर सादर
                 करण्यासाठी रंगवर्धन हे एक उत्तम व्यासपीठ आहे.
               </p>
-              <Link to="/events" className="btn btn-red">
+              <Link to="/about" className="btn btn-red">
                 view more
               </Link>
             </div>
