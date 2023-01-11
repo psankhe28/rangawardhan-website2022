@@ -9,7 +9,7 @@ const Theme = () => {
     <div className="itheme">
     <div className="i-left">
       <div className="i-left-wrapper">
-            <img className='centerimg' src={parisparsh}  data-aos="fade-right" data-aos-duration="2000" />
+            <img className='centerimg' src={parisparsh}  data-aos="fade-right" data-aos-duration="2000" alt='' />
         <p className="i-desc" data-aos="fade-right" data-aos-duration="2000" style={{color:"white"}}>
         परीस एक असा धातू  जो लोखंडाला स्पर्श करताच त्याचे रूपांतर सोन्यात करतो. असाच काहीसा स्पर्श आपल्या मराठी संस्कृतीचा आहे. विविध चालीरितींनी नटलेली वैभवशाली अशी आपली संस्कृती जी स्पर्शून गेल्यावर ज्याला स्पर्शीले त्यास उज्वल करते, स्वतःबद्दल विश्वास निर्माण करत जगण्याचा आनंद कळवते ! हाच स्पर्श अनुभवून देण्यासाठी रंगवर्धन २०२२-२३ घेऊन येत आहे संकल्पना-
         </p>
