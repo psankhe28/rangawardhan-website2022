@@ -1,17 +1,6 @@
 import React from "react";
 import images from "./images"
 const About = () => {
-  const [header] = React.useState({
-    subHeader: "About Me",
-    text:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy text.",
-  });
-  const [state] = React.useState([
-    { id: 1, title: "Name:", text: "Jonathan Doe" },
-    { id: 2, title: "Email:", text: "example@domain.com" },
-    { id: 3, title: "Phone:", text: "+1 023 454 345" },
-    { id: 4, title: "Linkedin", text: "Jonathan_123" },
-  ]);
   return (
     <div className="about">
       <div className="container">
