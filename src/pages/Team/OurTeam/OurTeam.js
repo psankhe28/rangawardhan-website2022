@@ -10,7 +10,7 @@ import Webteam from "../../home/WebTeam/Webteam";
 const Ourteam = () => {
   return (
     <div style={{backgroundImage:'linear-gradient(270deg, #28b8d5 0%,#020344 100%)'}}>
-      <div className="container" style={{backgroundImage:'linear-gradient(270deg, #28b8d5 0%,#020344 100%)'}}>
+      <div className="container">
         <div className="section-title" data-aos="zoom-in-up" style={{borderRadius:'10px'}}>
           <h2 className="past" style={{marginTop:"3%"}} >Our Team</h2>
         </div>
