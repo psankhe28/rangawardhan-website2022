@@ -7,7 +7,7 @@ const Sponsors = () => {
 <section  id='sponsors'>
     <div className='container'>
         <div className='section-title'data-aos="zoom-in-up" data-aos-duration="3000">
-            <h1 className='animate-charcter big'>Sponsors</h1> 
+            <h1 className='big' style={{color: "rgb(255, 174, 66)"}}>Sponsors</h1> 
         </div>
         <div className='sponsors-content grid py-6' >
             {

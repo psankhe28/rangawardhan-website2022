@@ -12,7 +12,7 @@ const Ourteam = () => {
     <div style={{backgroundImage:'linear-gradient(270deg, #28b8d5 0%,#020344 100%)'}}>
       <div className="container" style={{backgroundImage:'linear-gradient(270deg, #28b8d5 0%,#020344 100%)'}}>
         <div className="section-title" data-aos="zoom-in-up" style={{borderRadius:'10px'}}>
-          <h2 className="animate-charcter" style={{marginTop:"3%"}} >Our Team</h2>
+          <h2 className="past" style={{marginTop:"3%"}} >Our Team</h2>
         </div>
         <div className="team-content py-2 grid" data-aos="zoom-in-up">
           {data.teams.map((teams, index) => {
@@ -48,7 +48,7 @@ const Ourteam = () => {
       <br/>
       <div className="container">
         <div className="section-title" data-aos="zoom-in-up" style={{borderRadius:'10px'}}>
-          <h2 className="animate-charcter" style={{margin:"3%"}}>Previous Team</h2>
+          <h2 className="past" style={{margin:"3%"}}>Previous Team</h2>
         </div>
         <div className="team-content py-2 grid" data-aos="zoom-in-up">
           {data.pastTeam.map((teams, index) => {
@@ -71,7 +71,7 @@ const Ourteam = () => {
       </div>
          <div className="container">
         <div className="section-title" data-aos="zoom-in-up" style={{borderRadius:'10px'}}>
-          <h2 className="animate-charcter" style={{marginTop:"1%"}}>Our Mentors</h2>
+          <h2 className="past" style={{marginTop:"1%"}}>Our Mentors</h2>
         </div>
         <div className="team-content py-2 grid" data-aos="zoom-in-up">
           {data.mentor.map((teams, index) => {

@@ -217,12 +217,13 @@ body::after {
   text-align: center;
 }
 
-@media screen and (max-width:400px){
+@media screen and (max-width:480px){
   .custom-btn{
     margin-left: 30%;
     font-size: 15px;
-    width:150px;
+    width:50vw;
     font-weight: bold;
+    padding: 5%;
   }
   .past{
     margin-top: 15px;

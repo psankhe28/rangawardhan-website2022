@@ -10,21 +10,21 @@ const Prices = () => {
       heading: "प्रतिक देवकते",
       img:`${images.pratik}`,
       desc: 'VJTI Drama Committee Head',
-      contact:'9405111418'
+      contact:'https://wa.me/9405111418'
     },
     {
       id: 2,
       heading: "आयुष देशपांडे",
       img: `${images.aayush}`,
       desc: 'Drama CO-Ordinator',
-      contact:'9405111418'
+      contact:'https://wa.me/9405111418'
     },
     {
       id: 3,
       heading: "अमित कापसे",
       img:`${images.amit}`,
       desc: 'Drama CO-Ordinator',
-      contact:'9405111418'
+      contact:'https://wa.me/9405111418'
     },
   ]);
   return (

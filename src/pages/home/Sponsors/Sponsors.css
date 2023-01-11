@@ -11,6 +11,10 @@
 .container .section-title .big{
   font-size: 4vw;
   font-weight: bolder;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .sponsors-item {
   padding-left: 2rem;
@@ -50,11 +54,14 @@
     text-align: center;
   }
   .container .section-title .big{
-    font-size: 7vw;
+    font-size: 13vw;
     font-weight: bolder;
   }
- 
+  #sponsors{
+    margin-top: 20vw;
+  }
 }
+
 @media screen and (min-width: 900px) {
   .sponsors-content {
     grid-template-columns: repeat(6, 1fr);
