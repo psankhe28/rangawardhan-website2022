@@ -7,7 +7,7 @@ const WhatWeDo = () => {
     <section className="what-we-do py-6 " id="whatwedo">
       <div className="container">
         <div className="section-title " data-aos="zoom-in-up">
-          <h3 className="text-upper text-center animate-charcter">About</h3>
+          <h1 className=" text-center animate-charcter abig">About</h1>
         </div>
         <div className="what-we-do-content">
           <div className="what-we-do-item grid text-center">

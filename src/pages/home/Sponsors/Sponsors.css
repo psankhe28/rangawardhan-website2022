@@ -5,8 +5,12 @@
 }
 
 #sponsors {
-  background-image: linear-gradient(#28b8d5, #020344);
+  /* background-image: linear-gradient(#28b8d5, #020344); */
   text-align: center;
+}
+.container .section-title .big{
+  font-size: 4vw;
+  font-weight: bolder;
 }
 .sponsors-item {
   padding-left: 2rem;
@@ -44,6 +48,10 @@
   }
   .sponsors .container .section-title{
     text-align: center;
+  }
+  .container .section-title .big{
+    font-size: 7vw;
+    font-weight: bolder;
   }
  
 }

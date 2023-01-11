@@ -1,26 +1,32 @@
 import { React } from "react";
-import images from "../../../constants/images.js"
 import "./Header.css";
-
+import MyVideo from "./smoke.mp4"
 
 const Header = () => {
   return (
     <>
-    <header className="header flex" id="header">
-    <div className="container" >
-    <img src={images.ranga} alt="ranga" className="ranga-img vert-move" />
-        <div className="header-content grid text-center py-2 text-white" >
-            <div className="header-content-left" data-aos = "fade-right"  data-aos-duration="3000">
-            <h1 className="text-upper header-title">
-            
-            </h1>
-            
-            </div>
-            <div className="header-content-right" data-aos ="fade-left">
-            </div>
-        </div>
-    </div>
-    </header>
+       <section className="animationforheader">
+       <video className="videoheader" autoPlay muted >
+ <source src={MyVideo} type="video/mp4" />
+</video>
+       <h1 className="parts">
+            <span className="past">रं</span>
+            <span className="past">ग</span>
+            <span className="past">व</span>
+            <span className="past">र्ध</span>
+            <span className="past">न</span>
+            <span className="past">'</span>
+            <span className="past"> </span>
+            <span className="past">२</span>
+            <span className="past">२</span>
+            <span className="past">-</span>
+            <span className="past">२</span>
+            <span className="past">३</span>
+           
+            <div className="animate-charcter">23rd, 24th, 25th, 26th</div>
+            <div className="animate-charcter">March 2023</div>
+        </h1> 
+    </section>
     </>
   )
 }

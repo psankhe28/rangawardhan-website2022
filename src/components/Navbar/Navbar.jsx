@@ -13,10 +13,10 @@ const Navbar = () => {
         <div className="container flex navbar-content ">
             <div className="brand-and-toggler flex">
              <Link to="/" alt =""  className="navbar-brand text-upper fw-7 fs-22 flex " data-aos = "fade-right"  data-aos-duration="3000">
-             <img src= {images.Rangwardhan_logo} alt="ranga" className="ranga-logo"
+             <img src= {images.Rangwardhan_logo} alt="ranga" className="ranga-logo" 
               />
-                <span className="text-white navhead">Ranga</span>
-                <span style={{color:"#ffae42"}} className="navhead">wardhan</span>
+                <h3 className="text-white navhead" style={{fontFamily:"Gotu"}}>रंग</h3>
+                <h3 style={{color:"#ffae42",fontFamily:"Gotu"}} className="navhead">वर्धन</h3>
              </Link>
              <button type="button"
              className="navbar-show-btn text-white" onClick={()=>handleClick()}  >

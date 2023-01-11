@@ -12,7 +12,9 @@ body::after {
   left: 0;
   z-index: -1;
 }
-
+.container .section-title .animate-charcter{
+  font-size: 4vw;
+}
 .team {
   display: flex;
   justify-content: center;
