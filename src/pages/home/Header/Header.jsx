@@ -18,13 +18,13 @@ const Header = () => {
             <span className="past">'</span>
             <span className="past"> </span>
             <span className="past">२</span>
-            <span className="past">२</span>
+            <span className="past">३</span>
             <span className="past">-</span>
             <span className="past">२</span>
-            <span className="past">३</span>
+            <span className="past">४</span>
            
-            <div className="animate-charcter">23rd, 24th, 25th, 26th</div>
-            <div className="animate-charcter">March 2023</div>
+            <div className="animate-charcter" style = {{marginTop: "2%"}}>भव्य  शुभारंभ सोहळा  </div>
+            <div className="animate-charcter">११ सप्टेंबर</div>
         </h1> 
     </section>
     </>
